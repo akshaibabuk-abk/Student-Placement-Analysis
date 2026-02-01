@@ -8,11 +8,10 @@ This project focuses on analyzing student placement outcomes using academic perf
 The dataset was sourced from Kaggle and processed end-to-end using Power BI (Power Query + DAX).
 
 🎯 Objectives
-
-Analyze placement rates across different degrees, branches, and demographics
-Identify the impact of CGPA, coding skills, and internships on placement outcomes
-Build interactive KPIs and visuals for data-driven insights
-Practice real-world data cleaning, modeling, and visualization
+Analyze placement rates across different degrees, branches, and demographics/
+Identify the impact of CGPA, coding skills, and internships on placement outcomes/
+Build interactive KPIs and visuals for data-driven insights/
+Practice real-world data cleaning, modeling, and visualization/
 
 🗂️ Dataset Information
 
@@ -21,65 +20,65 @@ Records: 50,000 students
 Files: Train & Test datasets (appended as a continuous dataset)
 
 Key Columns:
-Degree
-Branch
-Gender
-CGPA
-Coding Skills
-Internships
-Certifications
-Placement Status
+Degree/
+Branch/
+Gender/
+CGPA/
+Coding Skills/
+Internships/
+Certifications/
+Placement Status/
 
 🧹 Data Cleaning & Preparation (Power Query – Power BI)
 
 The following steps were performed using Power Query:
 
-Imported Train and Test datasets from CSV files
-Appended both files to create a single continuous dataset
-Removed unnecessary columns and handled inconsistencies
-Changed appropriate data types (numeric, text, whole numbers)
-Renamed columns for clarity and consistency
-Validated categorical values (Placement Status, Degree, Branch)
-Loaded cleaned data into the Power BI data model
+Imported Train and Test datasets from CSV files/
+Appended both files to create a single continuous dataset/
+Removed unnecessary columns and handled inconsistencies/
+Changed appropriate data types (numeric, text, whole numbers)/
+Renamed columns for clarity and consistency/
+Validated categorical values (Placement Status, Degree, Branch)/
+Loaded cleaned data into the Power BI data model/
 
 📐 Data Modeling & DAX Measures
 
 Key DAX measures created:
 
-Total Students
-Placed Students
-Not Placed Students
-Placement Rate (%)
-Average CGPA (Placed Students)
-Average Coding Skill (Placed Students)
+Total Students/
+Placed Students/
+Not Placed Students/
+Placement Rate (%)/
+Average CGPA (Placed Students)/
+Average Coding Skill (Placed Students)/
 
 These measures dynamically update based on slicer selections.
 
 📊 Dashboard Features
 🔑 KPIs
 
-Total Students
-Placed Students
-Not Placed Students
-Placement Rate (%)
-Average CGPA (Placed)
+Total Students/
+Placed Students/
+Not Placed Students/
+Placement Rate (%)/
+Average CGPA (Placed)/
 Average Coding Skill (Placed)
 
 📈 Visualizations
 
-Placement Distribution (Donut Chart)
-CGPA by Placement Status
-Placements by Degree
-Placements by Branch
-Internships vs Placements
+Placement Distribution (Donut Chart)/
+CGPA by Placement Status/
+Placements by Degree/
+Placements by Branch/
+Internships vs Placements/
 Skills Impact (Scatter Plot: Coding Skills vs CGPA)
 
 🎛️ Slicers
 
-Degree
-Branch
-Gender
-Placement Status
+Degree/
+Branch/
+Gender/
+Placement Status/
 
 All visuals are fully interactive and respond to slicer selections.
 
@@ -93,16 +92,16 @@ Skills and practical exposure matter more than degree alone
 
 💡 Recommendations
 
-Strengthen technical and coding skill training programs
-Introduce mandatory internships or industry projects
-Provide targeted support for low-performing or at-risk students
-Develop branch-specific placement strategies
+Strengthen technical and coding skill training programs/
+Introduce mandatory internships or industry projects/
+Provide targeted support for low-performing or at-risk students/
+Develop branch-specific placement strategies/
 
 🛠️ Tools & Technologies
 
-Power BI Desktop
-Power Query
-DAX
+Power BI Desktop/
+Power Query/
+DAX/
 CSV (Kaggle Dataset)
 
 🚀 Conclusion
